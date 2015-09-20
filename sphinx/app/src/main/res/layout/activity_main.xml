@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offline Mode"
+        android:id="@+id/button_offline"
+        android:layout_gravity="center_horizontal"
+        android:onClick="offlineMode"
+        android:layout_margin="40dip"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online Mode"
+        android:id="@+id/button_server"
+        android:layout_gravity="center_horizontal"
+        android:onClick="serverMode"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dip">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Mode"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"/>
+        <ToggleButton
+            android:id="@+id/button_testMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Mode"
+            android:layout_marginTop="10dip"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+</LinearLayout>
