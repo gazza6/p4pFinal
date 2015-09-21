@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Android\ADT\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\p4p\p4pFinal\Client\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-a2f44785c675d266a35eb5c263130104f1576346.jar" />
+    </item>
+    <item
+        jar="E:\p4p\p4pFinal\Client\app\libs\pocketsphinx-android-5prealpha-nolib.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9abb9316583beaa841a16f884282af120c5d4aa9">
+        <dex dex="E:\p4p\p4pFinal\Client\app\build\intermediates\pre-dexed\debug\pocketsphinx-android-5prealpha-nolib-e4e12fe7ed4944f165b5530d8e71dbc1361379e7.jar" />
+    </item>
+
+</items>
